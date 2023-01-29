@@ -1,9 +1,9 @@
 #!/bin/bash
 
 tar czf dsenv-common.tgz common/
-tar czf dsenv-cli.tgz zsh/
-tar czf dsenv-dev.tgz zsh/
-tar czf dsenv-mac.tgz zsh/
+tar czf dsenv-cli.tgz cli/
+tar czf dsenv-dev.tgz dev/
+tar czf dsenv-mac.tgz mac/
 tar czf dsenv-zsh.tgz zsh/
 
 rm -f ASSETS.md
