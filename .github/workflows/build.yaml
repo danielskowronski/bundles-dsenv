@@ -1,0 +1,15 @@
+---
+name: build
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: list
+        run: tree ${{ github.workspace }}
+      - name: build
+        run: bash ${{ github.workspace }}/build.sh
+      - uses: actions/upload-artifact@v3
+        with:
+          path: dsenv-zsh.tgz
