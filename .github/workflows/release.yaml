@@ -13,7 +13,11 @@ jobs:
         run: tree ${{ github.workspace }}
       - name: build
         run: bash ${{ github.workspace }}/build.sh
-      - uses: meeDamian/github-release@2.0
+      - name: dsenv-zsh.tgz
+        uses: svenstaro/upload-release-action@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          files: dsenv-zsh.tgz
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: dsenv-zsh.tgz
+          asset_name: dsenv-zsh.tgz
+          tag: ${{ github.ref }}
+          overwrite: true
