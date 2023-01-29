@@ -13,11 +13,10 @@ jobs:
         run: tree ${{ github.workspace }}
       - name: build
         run: bash ${{ github.workspace }}/build.sh
-
       - uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          body_path: ${{ github.workspace }}/ASSETS.txt
+          body_path: ${{ github.workspace }}/ASSETS.md
           token: ${{ secrets.GITHUB_TOKEN }}
           files: |
-            dsenv-zsh.tgz
+            *.tgz
