@@ -5,11 +5,15 @@ on:
     tags:
       - 'v*'
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: meeDamian/github-release@2.0
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        files: dsenv-zsh.tgz
+      - uses: actions/checkout@v3
+      - name: list
+        run: tree ${{ github.workspace }}
+      - name: build
+        run: bash ${{ github.workspace }}/build.sh
+      - uses: meeDamian/github-release@2.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          files: dsenv-zsh.tgz
