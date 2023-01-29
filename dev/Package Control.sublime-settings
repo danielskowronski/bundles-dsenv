@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"All Autocomplete",
+		"AutoPEP8",
+		"Awk",
+		"ayu",
+		"BracketHighlighter",
+		"Dockerfile Syntax Highlighting",
+		"GitGutter",
+		"Gitignore",
+		"GitSavvy",
+		"INI",
+		"LanguageTool",
+		"Marked App Menu",
+		"Package Control",
+		"Pretty JSON",
+		"SublimeLinter",
+		"Sublimerge 3",
+		"Terraform",
+	],
+}

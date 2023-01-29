@@ -1,8 +1,10 @@
 #!/bin/bash
 
+tar czf dsenv-common.tgz common/
+tar czf dsenv-cli.tgz zsh/
+tar czf dsenv-dev.tgz zsh/
+tar czf dsenv-mac.tgz zsh/
 tar czf dsenv-zsh.tgz zsh/
-
-GITHUB_REF_NAME=v0.0.4
 
 rm -f ASSETS.md
 for asset in *.tgz; do
