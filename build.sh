@@ -1,6 +1,5 @@
 #!/bin/bash
 
-tar czf dsenv-sublime.tgz sublime/
 tar czf dsenv-common.tgz common/
 tar czf dsenv-cli.tgz cli/
 tar czf dsenv-dev.tgz dev/
