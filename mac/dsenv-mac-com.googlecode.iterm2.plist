@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AlternateMouseScroll</key>
+	<true/>
 	<key>CopySelection</key>
 	<true/>
 	<key>Custom Color Presets</key>
@@ -4752,7 +4754,7 @@
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
-			<string>No</string>
+			<string>Recycle</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Description</key>
@@ -5119,7 +5121,7 @@ Broadcast Input.Toggle Broadcast Input to Current Session</string>
 				<real>0.0</real>
 			</dict>
 			<key>Log Directory</key>
-			<string>/Users/dskowronski/iterm_sessions</string>
+			<string>~/iterm_sessions</string>
 			<key>Minimum Contrast</key>
 			<real>0.33170572916666669</real>
 			<key>Mouse Reporting</key>
@@ -5207,7 +5209,7 @@ Broadcast Input.Toggle Broadcast Input to Current Session</string>
 								<key>base: priority</key>
 								<real>100</real>
 								<key>format</key>
-								<string>YYYY-MM-DD HH:mm:ss</string>
+								<string>YYYY-MM-dd HH:mm:ss</string>
 								<key>localize</key>
 								<integer>0</integer>
 								<key>maxwidth</key>
@@ -5617,6 +5619,8 @@ Broadcast Input.Toggle Broadcast Input to Current Session</string>
 		<string>Notes</string>
 		<string>Command History</string>
 	</array>
+	<key>URLHandlersByGuid</key>
+	<dict/>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>findMode_iTerm</key>

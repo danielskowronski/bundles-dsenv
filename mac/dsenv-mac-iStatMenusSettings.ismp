@@ -3,34 +3,95 @@
 <plist version="1.0">
 <dict>
 	<key>build</key>
-	<string>1192</string>
+	<string>1216</string>
 	<key>preferences</key>
 	<dict>
+		<key>Battery_DropdownOrderDisabled</key>
+		<string>processes,buttons</string>
+		<key>Battery_MenubarMode</key>
+		<array>
+			<dict>
+				<key>key</key>
+				<string>2</string>
+				<key>uuid</key>
+				<string>3CD29CE6-D9E6-41D9-A56D-5F7F242A7F3C</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>1</string>
+				<key>uuid</key>
+				<string>B9E22BF8-2DFC-4CB7-B158-B18C0025D172</string>
+			</dict>
+		</array>
+		<key>Battery_MenubarModeAirpods</key>
+		<array>
+			<dict>
+				<key>key</key>
+				<string>8</string>
+				<key>uuid</key>
+				<string>AB4D33EB-F721-49DC-B65A-C7ACC08BBD4E</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>6</string>
+				<key>uuid</key>
+				<string>A5B366C2-D584-4093-B1A2-FBF2B443F818</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>7</string>
+				<key>uuid</key>
+				<string>1BCC4175-BA6B-4523-8C8D-40222F94C37B</string>
+			</dict>
+		</array>
+		<key>Battery_MenubarModeBluetooth</key>
+		<array>
+			<dict>
+				<key>key</key>
+				<string>8</string>
+				<key>uuid</key>
+				<string>1D9AF0AA-0D65-4296-85DD-AB36B2AC655C</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>2</string>
+				<key>uuid</key>
+				<string>872F52D0-642D-44F1-B2E1-C912F8EDC100</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>7</string>
+				<key>uuid</key>
+				<string>4A8769FC-AD4D-43A2-BB72-08853349DE48</string>
+			</dict>
+		</array>
 		<key>CPU_AppFormat</key>
 		<integer>0</integer>
 		<key>CPU_CombineLogicalCores</key>
 		<integer>1</integer>
 		<key>CPU_DropdownOrderDisabled</key>
-		<string>buttons</string>
+		<string>gpu-processes,buttons</string>
+		<key>CPU_MenubarGraphOverall</key>
+		<string>0.45 0.98 0.47 1.00</string>
 		<key>CPU_MenubarMode</key>
 		<array>
 			<dict>
 				<key>key</key>
 				<string>100</string>
 				<key>uuid</key>
-				<string>D8ABA5AC-8F67-4F3A-AB3E-AC0D49847903</string>
-			</dict>
-			<dict>
-				<key>key</key>
-				<string>1</string>
-				<key>uuid</key>
-				<string>6CDC0E01-7D6E-451C-8072-0E73366E646F</string>
+				<string>C913A8B9-19D9-4386-9DB1-160DF5666C13</string>
 			</dict>
 			<dict>
 				<key>key</key>
 				<string>2</string>
 				<key>uuid</key>
-				<string>57631CF5-0F86-4188-9533-1473B13659F5</string>
+				<string>15BD122E-C6F9-4429-A145-4CBD2E7A23A0</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>0</string>
+				<key>uuid</key>
+				<string>B85AD3B7-D22B-4559-8F7C-669A55B944A3</string>
 			</dict>
 		</array>
 		<key>CPU_ProcessCount</key>
@@ -63,11 +124,17 @@
 			</dict>
 		</array>
 		<key>Disks_DropdownActivityDisplayMode</key>
-		<integer>1</integer>
+		<integer>2</integer>
 		<key>Disks_DropdownOrderDisabled</key>
 		<string>buttons</string>
 		<key>Disks_DropdownShowAllActivity</key>
 		<integer>1</integer>
+		<key>Disks_MenubarGraphActivityRead</key>
+		<string>0.46 0.84 1.00 1.00</string>
+		<key>Disks_MenubarGraphActivityWrite</key>
+		<string>1.00 0.54 0.85 1.00</string>
+		<key>Disks_MenubarGraphOverallColor</key>
+		<string>0.83 0.99 0.47 1.00</string>
 		<key>Disks_MenubarGroupItems</key>
 		<integer>1</integer>
 		<key>Disks_MenubarItems</key>
@@ -87,19 +154,25 @@
 				<key>key</key>
 				<string>100</string>
 				<key>uuid</key>
-				<string>CEA9234A-CDBC-405D-883C-6478F5194776</string>
+				<string>6C22921F-94D9-4AFF-B0A5-2FF942E8E107</string>
 			</dict>
 			<dict>
 				<key>key</key>
 				<string>0</string>
 				<key>uuid</key>
-				<string>1A526176-1984-49BA-B45A-E00AAFA07C85</string>
+				<string>A8D50D15-EA5E-48A6-8B1B-AC38E0B27B42</string>
 			</dict>
 			<dict>
 				<key>key</key>
 				<string>9</string>
 				<key>uuid</key>
-				<string>78E324F4-A8FB-4AD7-BD51-AC1739BE27D3</string>
+				<string>98507A75-0645-432F-8840-2648051E3DBA</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>8</string>
+				<key>uuid</key>
+				<string>BFAEA07A-3342-4A74-9807-3845B4D78237</string>
 			</dict>
 		</array>
 		<key>Disks_MenubarRWFontStyle</key>
@@ -171,25 +244,27 @@
 		<integer>2</integer>
 		<key>Memory_DropdownOrderDisabled</key>
 		<string>swap,pages,buttons</string>
+		<key>Memory_MenubarGraphOverall</key>
+		<string>0.45 0.99 1.00 1.00</string>
 		<key>Memory_MenubarMode</key>
 		<array>
 			<dict>
 				<key>key</key>
 				<string>100</string>
 				<key>uuid</key>
-				<string>230147CD-A66B-4D58-B1E6-B8293436CCA5</string>
-			</dict>
-			<dict>
-				<key>key</key>
-				<string>1</string>
-				<key>uuid</key>
-				<string>E30E0784-5A5E-4F31-B553-F7C36D21AC0B</string>
+				<string>BBCE1AD2-E028-4D43-815D-7F27DC91B474</string>
 			</dict>
 			<dict>
 				<key>key</key>
 				<string>2</string>
 				<key>uuid</key>
-				<string>23FC38CA-667D-4491-9CE2-EEF6E33C7553</string>
+				<string>F5F69CCA-15D6-4821-981C-A617935B3ADE</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>0</string>
+				<key>uuid</key>
+				<string>83193DF7-9332-49CE-9E0D-77CC1998ED1C</string>
 			</dict>
 		</array>
 		<key>Memory_ProcessCount</key>
@@ -198,6 +273,8 @@
 		<real>1</real>
 		<key>MenubarGraphOpacity-Modern</key>
 		<real>1</real>
+		<key>MenubarGraphSize</key>
+		<integer>0</integer>
 		<key>MenubarSkinColor-Dark</key>
 		<integer>8</integer>
 		<key>MenubarSkinColor-Light</key>
@@ -214,17 +291,29 @@
 		<true/>
 		<key>Migrated_6.60_ARM</key>
 		<true/>
+		<key>Migrated_WeatherProvider</key>
+		<true/>
 		<key>Network_DataFormat</key>
-		<integer>3</integer>
+		<integer>5</integer>
 		<key>Network_DecimalLevelKB</key>
 		<integer>0</integer>
 		<key>Network_DecimalLevelMB</key>
-		<integer>0</integer>
+		<integer>1</integer>
 		<key>Network_DropdownCombineBandwidth</key>
 		<integer>1</integer>
 		<key>Network_DropdownOrderDisabled</key>
 		<string>inactive,buttons</string>
+		<key>Network_GraphDownload</key>
+		<string>0.46 0.84 1.00 1.00</string>
 		<key>Network_GraphMode</key>
+		<integer>1</integer>
+		<key>Network_GraphShowBackground</key>
+		<integer>1</integer>
+		<key>Network_GraphUpload</key>
+		<string>1.00 0.54 0.85 1.00</string>
+		<key>Network_IPV4AddressMode</key>
+		<integer>0</integer>
+		<key>Network_IPV6AddressMode</key>
 		<integer>1</integer>
 		<key>Network_MenubarFontStyle</key>
 		<integer>0</integer>
@@ -234,19 +323,25 @@
 				<key>key</key>
 				<string>4</string>
 				<key>uuid</key>
-				<string>930F7BAD-4806-4759-BA2B-ED2C23C0912C</string>
+				<string>95D70346-DCE0-4494-852F-3E54B4AEA87F</string>
 			</dict>
 			<dict>
 				<key>key</key>
 				<string>100</string>
 				<key>uuid</key>
-				<string>880C4F74-1558-489D-AEF9-9834AA8FA852</string>
+				<string>B655A8EB-9B9D-403F-A70C-758D8BE1FD30</string>
 			</dict>
 			<dict>
 				<key>key</key>
 				<string>0</string>
 				<key>uuid</key>
-				<string>1C840F56-8D61-4F1E-8295-4B9409F67D56</string>
+				<string>DDC56140-980A-4FEC-A1C7-159E5571A2FA</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>1</string>
+				<key>uuid</key>
+				<string>65A8479C-4526-42EF-AACC-AAFC51702CC8</string>
 			</dict>
 		</array>
 		<key>Network_MenubarUnitLevel</key>
@@ -318,18 +413,17 @@
 				<key>key</key>
 				<string>100</string>
 				<key>uuid</key>
-				<string>B32E605C-18B0-4257-B68A-8986E1505AD8</string>
+				<string>A8AB11F3-3CDF-414B-9592-6CA5110F8306</string>
 			</dict>
 			<dict>
 				<key>key</key>
 				<string>0</string>
 				<key>uuid</key>
-				<string>8E81AE6E-ECAD-4FC6-ABC1-E7799CADE250</string>
+				<string>C2EE1D35-D6C0-47F8-94D0-9EE6B89703A6</string>
 			</dict>
 		</array>
 		<key>StatusItems-Order</key>
 		<array>
-			<integer>7</integer>
 			<integer>1</integer>
 			<integer>2</integer>
 			<integer>3</integer>
@@ -497,14 +591,14 @@
 		<key>Zarya-TLE</key>
 		<dict>
 			<key>time</key>
-			<real>1662943085.9014859</real>
+			<real>1667613587.861748</real>
 			<key>tle</key>
 			<string>ISS (ZARYA)             
-1 25544U 98067A   22254.84456140  .00009352  00000+0  17072-3 0  9995
-2 25544  51.6421 267.2709 0002299 222.5093 195.3864 15.50155841358624</string>
+1 25544U 98067A   22308.86337963  .00016735  00000+0  30304-3 0  9994
+2 25544  51.6449 359.6935 0006351  41.3591 303.6163 15.49753126366997</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>6.62</string>
+	<string>6.70</string>
 </dict>
 </plist>

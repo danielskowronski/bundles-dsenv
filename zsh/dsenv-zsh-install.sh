@@ -7,3 +7,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/p
 
 cp ~/.zshrc ~/.zshrc.`date +%s`
 cp /opt/homebrew/share/dsenv-zsh-zshrc ~/.zshrc
+
+cp ~/.p10k.zsh ~/.p10k.zsh.`date +%s`
+cp /opt/homebrew/share/dsenv-zsh-p10k ~/.p10k.zsh
